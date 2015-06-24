@@ -10,7 +10,7 @@
 		.my-container{
 			padding-left: 15px;
 
-			  padding-right: 15px;
+			padding-right: 15px;
 			
 			  margin-left: auto;
 			
@@ -19,6 +19,13 @@
 			width: 100%;
 			height: 100%;
 					}
+			body{
+				display: table;
+			}
+			.button{
+				height: 15%;
+				width: 15%;
+			}
 	</style>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,11 +38,11 @@
     <![endif]-->
 </head>
 <body>
-<div class="container-fluid my-container" >
-	<div class="panel panel-default" style="height: 100%;">
-		<div class="panel-body">
-		<div class="row">
-		<input type="text" id="first" class="col-sm-12"> </input>
+<div class="container my-container" >
+	<!-- <div class="panel panel-default" style="height: 100%;">
+		<div class="panel-body"> -->
+		<div class="row ">
+		<input type="text" id="first" style="width:100%;"> </input>
 		<div class="row">
 			<button name="c" class="button btn btn-primary col-sm-3"> Clear </button>
 		</div>
@@ -64,8 +71,8 @@
 		<button id="=" name="=" class="button btn btn-primary col-sm-3">=</button>
 		<button id="/" name="/" class="button btn btn-primary col-sm-3">/</button>
 		
-		</div>
-		</div>
+		<!-- </div>
+		</div> -->
 		</div>
 </div>
 		<!-- JQuery -->
